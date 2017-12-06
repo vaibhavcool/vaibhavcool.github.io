@@ -1,74 +1,47 @@
-
-<!DOCUMENT html>
-<html>
-    <head>
-    <title>welocome to lol</title>
-    </head>
-
-<!-- JW Player Library -->
-<script src="http://jwpsrv.com/library/MCK8hplLEeOY0CIACmOLpg.js"></script>
-
-<!-- div for the player -->
-<div id='playerKXSDPIwKERSv'></div>
-
-<!-- Script to display video file in the player div -->
-<script type='text/javascript'>
-    jwplayer('playerKXSDPIwKERSv').setup({
-        // URL to the video file
-        file: 'http://vaibhav6meena.000webhostapp.com/videoplayer/myvideo.mp4',
-        // URL to the image that should be shown before the video is started
-        image: 'http://vaibhav6meena.000webhostapp.com/videoplayer/myvideo.jpg',
-        title: 'love ❤ ',
-        width: '1000',
-        height: '420'
-    });
-</script>
 <style media="screen" type="text/css">
- body {
-    margin: 0;
-    background-image: url("https://preview.ibb.co/hjggkG/collage_2017_12_03.jpg");
-    background-size: cover;    
-}
+ #backgroundaudio {
+  display: block;
+  position: fixed;
+  bottom: -43px;
+  left: 5px;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+ }
+ #backgroundaudio:hover {
+  bottom: 0;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+ }
+ #backgroundaudio audio {
+  background: #ffffff;
+  padding: 5px;
+  display: table-cell;
+  vertical-align: middle;
+  height: 43px;
+  z-index: 9998;
+ }
+ #backgroundaudio i {
+  font-size: 40px;
+  display: block;
+  background: #ffffff;
+  padding: 5px;
+  width: 50px;
+  float: none;
+  margin-bottom: -1px;
+  z-index: 9999;
+ }
 </style>
-    <h1><em>LOVE MY !ST TRY&nbsp; Xd:</em></h1>
-<p style="text-align: left;">&nbsp;</p>
-
-
-
-
-
-<!--background audio--> 
-  <style media="screen" type="text/css"> 
-  #backgroundaudio { 
-  display: block; 
-  position: fixed; 
-  bottom: -43px; 
-  left: 5px; 
-  -webkit-transition: all 1s ease-in-out; 
-  -moz-transition: all 1s ease-in-out; 
-  -ms-transition: all 1s ease-in-out; 
-  -o-transition: all 1s ease-in-out; 
-  transition: all 1s ease-in-out; 
-  } 
-  #backgroundaudio audio { 
-  background: #ffffff; 
-  padding: 5px; 
-  display: table-cell; 
-  vertical-align: middle; 
-  height: 43px; 
-  z-index: 9998; 
-  } 
-
-  </style> 
-  <div id="backgroundaudio"> 
-	  <i class="fa fa-volume-up"></i> 
-	  <audio autoplay="" controls="" loop="" preload=""> 
-		  <source src="your_website_url/Sunrise.ogg" type="audio/ogg"></source> 
-		  <source src="your_website_url/Sunrise.mp3" type="audio/mpeg"></source> 
-		  Your browser does not support the audio element. 
-	  </audio> 
-  </div>
-  
-  
-  
-</html>
+<div id="backgroundaudio">
+ <i class="icon-volume-up"></i>
+ <audio autoplay="" controls="" loop="" preload="">
+  <source src="http://192.254.184.234/~tangh/01_admin_resources/Shimmer/ogg/Smile.ogg" type="audio/ogg"></source>
+  <source src="http://192.254.184.234/~tangh/01_admin_resources/Shimmer/mp3/Smile.mp3" type="audio/mpeg"></source>
+  Your browser does not support the audio element.
+ </audio>
+</div>
